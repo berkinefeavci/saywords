@@ -31,8 +31,8 @@ AI settings before using it with sensitive content.
   optional AI window context. Apple Events is used to read a browser tab's
   address for destination-specific formatting; that address is not sent by
   SayWords to an AI provider for that purpose.
-- Automatic update checks fetch an appcast from GitHub once a day unless you
-  turn them off. When you approve an update, SayWords downloads it from GitHub
+- Automatic update checks are off by default. If you enable them, SayWords
+  fetches an appcast from GitHub once a day. You can also check manually. When you approve an update, SayWords downloads it from GitHub
   Releases and verifies its signature before installation.
 
 Third-party providers process data under their own terms.

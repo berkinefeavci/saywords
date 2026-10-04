@@ -20,7 +20,7 @@ SayWords was called SesCam until 0.40.0.
 
 ## Updates
 
-SayWords checks for a new version once a day and notifies you. The update window downloads, verifies and installs it; you do not need to come back here. The daily check can be turned off in Settings. If you have the 0.30.2 beta (SesCam), install the latest version by hand once.
+Automatic update checks are off by default. You can enable daily checks in Settings, or choose “Check for Updates” manually. The update window downloads, verifies, and installs a release after you approve it. If you have the 0.30.2 beta (SesCam), install the latest version by hand once.
 
 The source code is private for now. This repository is the public
 product page and a place to report issues.
