@@ -36,6 +36,17 @@ product page and a place to report issues.
 SayWords stores completed dictations in a local history file and shows the last
 24 hours. Read [data use](PRIVACY.md) before testing with sensitive content.
 
+## Vocabulary and inline icons
+
+The dictionary keeps manual words separate from learned suggestions. Suggestions
+come from dictation corrections or text you explicitly paste into the dictionary;
+automatic acceptance is off by default. Accepted terms can be sent to Soniox as
+recognition hints when Soniox is selected.
+
+Public builds use colorful Lucide icons for general words and keep brand names
+as text. Inline art changes only the capsule display, never pasted text or history.
+Lucide ISC and Feather MIT license notices are bundled with the app.
+
 ## Feedback
 
 Use [Issues](https://github.com/berkinefeavci/sescam/issues) for bugs and feature
@@ -45,4 +56,4 @@ or screenshots containing sensitive content.
 
 ---
 
-Türkçe: SayWords (eski adı SesCam), Mac için dikte ve canlı altyazı uygulamasıdır. [Son sürümü indirin](https://github.com/berkinefeavci/sescam/releases/latest). Yeni sürüm çıkınca uygulama bildirir ve kendi içinden günceller. Apple ve Whisper cihazda çalışır; Soniox seçilirse ses Soniox'a gönderilir.
+Türkçe: SayWords (eski adı SesCam), Mac için dikte ve canlı altyazı uygulamasıdır. [Son sürümü indirin](https://github.com/berkinefeavci/sescam/releases/latest). Güncellemeler elle denetlenebilir; günlük denetim Ayarlar’dan açılır. Onayınızla uygulama içinden kurulur. Apple ve Whisper cihazda çalışır; Soniox seçilirse ses Soniox'a gönderilir.
