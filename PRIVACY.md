@@ -31,8 +31,14 @@ AI settings before using it with sensitive content.
   optional AI window context. Apple Events is used to read a browser tab's
   address for destination-specific formatting; that address is not sent by
   SayWords to an AI provider for that purpose.
-- Automatic update checks are off by default. If you enable them, SayWords
-  fetches an appcast from GitHub once a day. You can also check manually. When you approve an update, SayWords downloads it from GitHub
+- Automatic update checks are off by default. If enabled, they fetch an
+  appcast from GitHub once a day. When you approve an update, SayWords downloads it from GitHub
   Releases and verifies its signature before installation.
+
+- Vocabulary learning uses only dictation corrections and text you explicitly
+  paste into the vocabulary screen. The pasted source text is not retained;
+  proposed terms and corrections are stored locally. Accepted terms are sent
+  as recognition hints when Soniox is selected. Automatic acceptance is off
+  by default.
 
 Third-party providers process data under their own terms.
