@@ -24,7 +24,7 @@ AI settings before using it with sensitive content.
   opened, or a new dictation is saved. The file is not continuously purged while
   the app stays open.
 - API keys are stored in macOS Keychain. Settings and project vocabulary are
-  stored on the Mac. A chosen Whisper model is stored under SesCam's
+  stored on the Mac. A chosen Whisper model is stored under SayWords'
   Application Support folder.
 - Microphone permission is used for dictation. Accessibility is used to insert
   text into other apps. Screen Recording is used for system audio captions and
@@ -40,5 +40,26 @@ AI settings before using it with sensitive content.
   proposed terms and corrections are stored locally. Accepted terms are sent
   as recognition hints when Soniox is selected. Automatic acceptance is off
   by default.
+
+## Background audio, voices and speaker recognition
+
+- When background audio is set to lower, pause or Smart, SayWords captures
+  other apps' audio output during dictation in order to lower, mute or classify
+  it. That audio is processed in memory on your Mac. It is not written to disk
+  and is not sent anywhere. This uses the "System Audio Recording Only"
+  permission. Pausing sends the system play/pause media key.
+- Voice samples you record or import in Voices, and the voiceprints derived
+  from them, are stored only under SayWords' Application Support folder.
+  Voiceprints are computed on your Mac with a model downloaded once from
+  Hugging Face. Deleting a person removes the sample and the voiceprint.
+- "Only my voice" and speaker names in captions turn on Soniox speaker
+  diarization for audio that is already being sent to Soniox. Matching a
+  speaker to a saved person happens on your Mac; voiceprints are not uploaded.
+- Voice design and cloning run locally with VoxCPM2 in a separate Python
+  environment that you install. Text and reference audio are not sent to any
+  service. The model is downloaded once from Hugging Face.
+- A local diagnostic log (debug.log under Application Support) records
+  background-audio and voice-filter decisions: timestamps and similarity
+  scores, never audio or transcript text.
 
 Third-party providers process data under their own terms.

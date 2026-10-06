@@ -3,6 +3,16 @@
     <channel>
         <title>SayWords</title>
         <item>
+            <title>0.47.0</title>
+            <pubDate>Tue, 06 Oct 2026 23:27:58 +0300</pubDate>
+            <sparkle:version>161</sparkle:version>
+            <sparkle:shortVersionString>0.47.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <sparkle:releaseNotesLink>https://raw.githubusercontent.com/berkinefeavci/saywords/main/SayWords-0.47.0.md</sparkle:releaseNotesLink>
+            <enclosure url="https://github.com/berkinefeavci/saywords/releases/download/v0.47.0/SayWords-0.47.0.dmg" length="16028584" type="application/octet-stream" sparkle:edSignature="lKHUgNhFjc1ipsEMksnJxmppVmpnZ8LNF/zAlnCTQvmLC6qWkuCaO296swLF0fogGFLAmp7NGM8IOsoneGzJCg=="/>
+        </item>
+        <item>
             <title>0.40.3</title>
             <pubDate>Mon, 05 Oct 2026 10:02:22 +0300</pubDate>
             <sparkle:version>121</sparkle:version>
